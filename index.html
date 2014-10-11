@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiun Lin Lim</title>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <!-- Static navbar -->
+    <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">CHIUN LIN</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div><!--/.nav-collapse -->
+        </div>
+    </div>
+    <!-- +++++ Welcome Section +++++ -->
+    <div id="ww">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 centered">
+                    <img src="assets/img/chiunlin.png" alt="Chiun Lin">
+                    <h1>Hi, I am Chiun Lin!</h1>
+                    <p>Hello everyone. I'm Chiun Lin, a Ph.D. candidate at the School of Electrical and Computer Engineering, Cornell University. </p>
+                    <p>This page is a partial compilation of the coding projects that I took on during my Masters and Ph.D. study as well as during my free time. For my academic site, please visit <a href="http://http://networks.ece.cornell.edu/chiunlin/">here</a></p>
+                </div><!-- /col-lg-8 -->
+            </div><!-- /row -->
+        </div> <!-- /container -->
+    </div><!-- /ww -->
+    <!-- +++++ Projects Section +++++ -->
+
+    <div id="projects" class="container pt">
+        <div class="row mt">
+            <h2>GW2Buildcraft - Guild Wars 2 Build Calculator (2012 - 2013)</h2>
+            <div class="col-lg-12 description">
+                <div class="pull-right screenshot">
+                    <img src="assets/img/gw2buildcraft.png" alt="gw2buildcraft.com" title="Guild Wars 2 Build Calculator" />
+                    <br /><br />
+                    <h4><a href="http://gw2buildcraft.com/calculator/">(Visit Site)</a></h4>
+                </div>
+                <p>I'm an avid gamer and around 2012 I started playing the MMORPG, <a href="https://www.guildwars2.com/en/">Guild Wars 2</a>.</p>
+                <p>Pretty soon I noticed the game lacked an end-game PvE build calculator and decided to build one during my free time while learning JavaScript from scratch.</p>
+                <p>The build calculator caters to the min-maxing players who wish to optimize their end-game builds. The game, though, lacks an API and does not have sufficient documentation explaining the interactions
+                between game mechanics and it tooks me months of painstaking experimentation to figure it all out.</p>
+            </div>
+            <h2>Sudoku Solver (2009)</h2>
+            <div class="col-lg-12 description">
+                <div class="pull-right screenshot">
+                    <img src="assets/img/sudoku.png" alt="SudSolver v0.23" title="SudSolver v0.23" />
+                    <br /><br />
+                    <h4><a href="http://www.mediafire.com/download/xnutwozmxfi/SudSolver+v0.23.zip">(Download)</a></h4>
+                </div>
+                <p>This is a Sudoku solver that I built for fun and learning before I started my Ph.D. study. </p>
+                <p>The solver's algorithm is meant to mimic human technniques instead of following well-defined algorithms such as backtracking.</p>
+                <p>The download link contains the source code, the GUI, graphical instructions and test files.</p>
+                <p>The solver should work for easy to medium difficulty puzzles but would have trouble solving the difficult puzzles since I stopped improving it
+                once my Ph.D. study started in August 2009.</p>
+            </div>
+
+            <h2>Evolving AI for Chinese Chess Program (2008)</h2>
+            <div class="col-lg-12 description">
+                <div class="pull-right screenshot">
+                    <img src="assets/img/CChess.png" alt="Chinese Chess Program" title="Informational GUI for debugging" />
+                    <br /><br />
+                    <h4><a href="http://networks.ece.cornell.edu/chiunlin/pub/CChess.zip">(Source Code)</a></h4>
+                </div>
+                <p>Combining my interests for Chinese Chess and evolutionary algorithms, I proposed this as my Master of Engineering design project and implemented it over the course of a year.</p>
+                <p>
+                    The primary objective of the project is to evolve the AI for a Chinese Chess program using the mechanisms of evolutionary algorithms, e.g. competition, selection, crossover, and mutation, for
+                    single population competitive coevolution and host-parasite competitive coevolution.
+                </p>
+                <p>
+                    The project required a simulation of roughly 20,000 games of 100 moves each, which translates to a time constraint of around 1 second to search for a sufficiently good move. Standard <a href="http://www.ics.uci.edu/~eppstein/180a/w99.html">game programming</a> techniques such as
+                    Alpha-beta pruning, move ordering, quiescence search and null pruning are implemented to reduce search time.
+                </p>
+            </div>
+        </div>
+    </div><!-- /container -->
+    <!-- +++++ Footer Section +++++ -->
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h4>Address</h4>
+                    <p>
+                        359 Frank H. T. Rhodes Hall <br />
+                        Cornell University <br />
+                        Ithaca, NY 14853 <br />
+                        United States
+                    </p>
+                </div><!-- /col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <h4>My Links</h4>
+                    <p>
+                        <a href="http://www.linkedin.com/pub/chiun-lin-lim/7/706/406/">LinkedIn</a><br />
+                        <a href="https://www.facebook.com/chiunlin">Facebook</a><br />
+                        <a href="http://http://networks.ece.cornell.edu/chiunlin/">Academic</a>
+                    </p>
+                </div><!-- /col-lg-4 -->
+
+                <div class="col-lg-4">
+                    <h4>Contact</h4>
+                    <p>Email: cl377 at cornell dot edu</p>
+                    <h4>Credits</h4>
+                    <p>This page uses the <a href="http://www.blacktie.co/demo/stanley/">Stanley</a> bootstrap theme</p>
+                </div><!-- /col-lg-4 -->
+
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-55642963-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
